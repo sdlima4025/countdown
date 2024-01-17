@@ -25,11 +25,13 @@ background-color: #00000080;
 }
 .title p {
     font-size: calc(10px + 1vw);
+    
 }
 .countdown {
     display: flex;
     width: 60vw;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .countdown h1 {
     font-size: calc(10px + 8vw);
@@ -40,17 +42,10 @@ background-color: #00000080;
     color: #000000;
     padding: 10px;
     cursor: pointer;
-    border: solid whitesmoke 2px;
+    border: 2px solid whitesmoke ;
 }
-#dias {
-
-}
-#horas {
-
-}
-#minutos {
-
-}
-#segundos {
-
+.button:hover {
+    background-color: #000000;
+    color: whitesmoke;
+    
 }
